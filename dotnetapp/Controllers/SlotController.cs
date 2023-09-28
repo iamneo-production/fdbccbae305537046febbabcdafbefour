@@ -21,13 +21,13 @@ namespace dotnetapp.Controllers
         {
             //write functionality here...
             //return null;
-            return new Exception("Man Made Exception");
+            //return new Exception("Man Made Exception");
         }
 
         public IActionResult Create()
         {
             //return View();
-            return new Exception("Man Made Exception");
+            //return new Exception("Man Made Exception");
         }
 
         [HttpPost]
@@ -35,7 +35,7 @@ namespace dotnetapp.Controllers
         {
             //write functionality here with SlotBookingException "Slot capacity should not exceed 4."
             //return null;        
-            return new Exception("Man Made Exception");
+            //return new Exception("Man Made Exception");
         }
     }
 }

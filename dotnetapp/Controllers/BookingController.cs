@@ -23,14 +23,16 @@ namespace dotnetapp.Controllers
         {
             //write functionality here...
             //return null;
-            return new Exception("Man Made Exception");
+            //return new Exception("Man Made Exception");
+            return View(new Exception("Man Made Exception"));
+            
         }
     
         public IActionResult Book(int id)
         {
             //write functionality here...
             //return null;
-            return new Exception("Man Made Exception");
+            //return new Exception("Man Made Exception");
         }
     
         [HttpPost]
@@ -38,7 +40,7 @@ namespace dotnetapp.Controllers
         {
             //write functionality with SlotBookingException "Slot is full." & "You have already booked this slot."
             //return null;
-            return new Exception("Man Made Exception");
+            //return new Exception("Man Made Exception");
     
         }
     
