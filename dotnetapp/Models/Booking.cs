@@ -12,6 +12,6 @@ namespace dotnetapp.Models
         public int BookingID { get; set; }  
         public int SlotID { get; set; } 
         public string UserID { get; set; }  
-        public ICollection<Slot> Slots { get; set; }
+        public List<Slot> Slot { get; set; }
     }
 }
