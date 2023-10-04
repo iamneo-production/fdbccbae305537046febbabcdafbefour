@@ -10,6 +10,8 @@ namespace dotnetapp.Models
         public int SlotID { get; set; }
         public string Time { get; set; }    
         public double Duration { get; set; }    
+
+        [Range(1, 4, ErrorMessage = "Slot is full.")]
         public int Capacity { get; set; }
     }
 }
