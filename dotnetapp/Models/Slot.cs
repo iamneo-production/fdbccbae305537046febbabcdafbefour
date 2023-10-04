@@ -13,5 +13,6 @@ namespace dotnetapp.Models
 
         [Range(1, 4, ErrorMessage = "Slot is full.")]
         public int Capacity { get; set; }
+        public ICollection<Booking> bookings { get; set; }
     }
 }
