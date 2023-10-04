@@ -10,9 +10,8 @@ namespace dotnetapp.Models
     {
         //write class here...
         public int BookingID { get; set; }  
-
-        
         public int SlotID { get; set; } 
         public string UserID { get; set; }  
+        public ICollection<Slot> Slots { get; set; }
     }
 }
