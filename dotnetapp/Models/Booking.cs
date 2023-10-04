@@ -11,7 +11,7 @@ namespace dotnetapp.Models
         //write class here...
         public int BookingID { get; set; }  
         public int SlotID { get; set; } 
-        public string UserID { get; set; }  
-        public List<Slot> Slot { get; set; }
+        public int UserID { get; set; }  
+        public Slot Slot { get; set; }
     }
 }

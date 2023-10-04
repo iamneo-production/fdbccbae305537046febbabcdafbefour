@@ -8,11 +8,12 @@ namespace dotnetapp.Models
         //write class here...
         [ForeignKey("Booking")]
         public int SlotID { get; set; }
-        public string Time { get; set; }    
+        public DateTime Time { get; set; }    
         public double Duration { get; set; }    
 
-        [Range(1, 4, ErrorMessage = "Slot is full.")]
+        [System.ComponentModel.DataAnnotations.Range(1, 4, ErrorMessage = "Slot is full.")]
         public int Capacity { get; set; }
         
+        public List<Booking> Bookings { get; set; }
     }
 }
