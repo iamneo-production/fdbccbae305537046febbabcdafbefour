@@ -11,7 +11,7 @@ namespace dotnetapp.Models
         //write class here...
         public int BookingID { get; set; }  
 
-        [ForeignKey("Slot")]
+        [System.ComponentModel.DataAnnotations.Schema.ForeignKey("Slot")]
         public int SlotID { get; set; } 
         public string UserID { get; set; }  
     }

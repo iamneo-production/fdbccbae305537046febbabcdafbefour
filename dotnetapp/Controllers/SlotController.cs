@@ -20,13 +20,13 @@ namespace dotnetapp.Controllers
         public IActionResult Index()
         {
             //write functionality here...
-            //return null;
+            return null;
             //return new Exception("Man Made Exception");
         }
 
         public IActionResult Create()
         {
-            //return View();
+            return View();
             //return new Exception("Man Made Exception");
         }
 
@@ -34,7 +34,7 @@ namespace dotnetapp.Controllers
         public IActionResult Create(Slot slot)
         {
             //write functionality here with SlotBookingException "Slot capacity should not exceed 4."
-            //return null;        
+            return null;        
             //return new Exception("Man Made Exception");
         }
     }

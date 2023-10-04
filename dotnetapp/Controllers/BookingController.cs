@@ -22,16 +22,16 @@ namespace dotnetapp.Controllers
         public IActionResult Index()
         {
             //write functionality here...
-            //return null;
+            return null;
             //return new Exception("Man Made Exception");
-            return View(new Exception("Man Made Exception"));
+            //return View(new Exception("Man Made Exception"));
             
         }
     
         public IActionResult Book(int id)
         {
             //write functionality here...
-            //return null;
+            return null;
             //return new Exception("Man Made Exception");
         }
     
@@ -39,7 +39,7 @@ namespace dotnetapp.Controllers
         public IActionResult Book(int id, int userId)
         {
             //write functionality with SlotBookingException "Slot is full." & "You have already booked this slot."
-            //return null;
+            return null;
             //return new Exception("Man Made Exception");
     
         }
