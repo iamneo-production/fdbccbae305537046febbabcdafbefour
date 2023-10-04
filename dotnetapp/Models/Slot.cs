@@ -11,7 +11,7 @@ namespace dotnetapp.Models
         public string Time { get; set; }    
         public double Duration { get; set; }    
 
-        [Range(1, 4, ErrorMessage = "Slot is full.")]
+        [System.ComponentModel.DataAnnotations.Range(1, 4, ErrorMessage = "Slot is full.")]
         public int Capacity { get; set; }
         public ICollection<Booking> bookings { get; set; }
     }
